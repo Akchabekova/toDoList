@@ -50,7 +50,7 @@ import Background from "../Background";
         return (
             <div className='row'>
                 <div className="col-md-6 offset-md-3">
-                    <h3 className="text-light text-end fs-5 text fw-light">features points: {todos.length}</h3>
+                    <h3 className="text-light text-end fs-5 text fw-light">future points: {todos.length}</h3>
                     <input type="text" className='form-control' onChange={handleChange} value={newTodo}
                            onKeyDown={onKeyDown}/>
                     <button className="btn btn-success w-100 mt-3" onClick={addNewItem}>Add new item</button>
